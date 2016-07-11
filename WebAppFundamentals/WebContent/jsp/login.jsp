@@ -11,9 +11,9 @@
 <div class="mainContainer">
 	<div class ="loginBox">
 		<div class="innerLogin">
-			<form action="/WebAppFundamentals/LoginServlet" method = "GET" >
-					<input type="text" value="Username">
-					<input type="text" value="Password">
+			<form action="/WebAppFundamentals/LoginServlet" method = "POST" >
+					<input type="text" placeholder="Username" name="Username" required>
+					<input type="password" placeholder="Password" name="Password" required>
 					<button class="submitBut">Submit</button>
 			</form>
 		</div>
